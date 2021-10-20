@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public interface Status {
-    List<String> massages = new ArrayList<>(Arrays.asList("Please enter weight:", "Please enter distance:"));
+    List<String> messages = new ArrayList<>(Arrays.asList("Please enter weight:", "Please enter distance:"));
     List<BigDecimal>userData = new ArrayList<>();
     Status handle();
     StatusType getType();

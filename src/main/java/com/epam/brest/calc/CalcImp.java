@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 
 public class CalcImp {
-    public static BigDecimal handle(BigDecimal weight, BigDecimal pricePerKg, BigDecimal length, BigDecimal pricePerKm){
+    public BigDecimal handle(BigDecimal weight, BigDecimal pricePerKg, BigDecimal length, BigDecimal pricePerKm){
         return weight.multiply(pricePerKg).add(length.multiply(pricePerKm));
     }
 }
